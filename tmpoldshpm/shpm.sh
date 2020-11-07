@@ -1,5 +1,5 @@
 #!/bin/bash
-# v3.2.1 - Build with sh-pm
+# v3.2.3 - Build with sh-pm
 
 source ./bootstrap.sh
 
