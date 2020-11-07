@@ -8,7 +8,7 @@ declare -A REPOSITORY=( \
 );
 
 declare -A DEPENDENCIES=(
-	[sh-pm]=v3.2.3 
+	[sh-pm]=v3.3.0 
 );
 
 SSO_API_AUTHENTICATION_URL=https://shpmcenter.com/sso/rest/api/sso/authentication
