@@ -1,14 +1,7 @@
 GROUP_ID=bash
 ARTIFACT_ID=sh-logger
-VERSION=v1.4.0
+VERSION=v1.4.1
 
-declare -A REPOSITORY=( \
-	[host]="shpmcenter.com" \
-	[port]=443 \
+declare -A DEPENDENCIES=( \
+    [sh-pm]=v4.0.0@github.com/sh-pm \
 );
-
-declare -A DEPENDENCIES=(
-	[sh-pm]=v3.3.0 
-);
-
-SSO_API_AUTHENTICATION_URL=https://shpmcenter.com/sso/rest/api/sso/authentication
